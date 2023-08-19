@@ -1,0 +1,332 @@
+CRITICAL - 2022-05-31 11:18:25 --> Attempt to read property "level" on null
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Views\Base\Menu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\View\View.php(226): CodeIgniter\View\View->render('base/menu', Array, true)
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Common.php(1089): CodeIgniter\View\View->render('Page/Keranjang/...', Array, true)
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Keranjang.php(25): view('Page/Keranjang/...', Array)
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->index()
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-31 12:51:16 --> Class "App\Models\Modelnakes" not found
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 13:30:15 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #1 ($orderBy) must be of type string, null given, called in C:\xampp\htdocs\SIAK_Dr_Yanti\app\Models\Modeldatakir.php on line 43
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Models\Modeldatakir.php(43): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Models\Modeldatakir.php(51): App\Models\Modeldatakir->_get_datatables_query()
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Kir.php(44): App\Models\Modeldatakir->get_datatables()
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Kir->listdata()
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kir))
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-31 13:37:59 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #1 ($orderBy) must be of type string, null given, called in C:\xampp\htdocs\SIAK_Dr_Yanti\app\Models\Modeldataantigen.php on line 43
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Models\Modeldataantigen.php(43): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Models\Modeldataantigen.php(51): App\Models\Modeldataantigen->_get_datatables_query()
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Antigen.php(44): App\Models\Modeldataantigen->get_datatables()
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Antigen->listdata()
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Antigen))
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-31 16:03:04 --> Class "App\Models\Modeldatainventaris" not found
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Inventaris->listdata()
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Inventaris))
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 16:04:22 --> Class "App\Models\Modeldatainventaris" not found
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Inventaris->listdata()
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Inventaris))
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 16:23:09 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Inventaris.php(156): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Inventaris->hapus()
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Inventaris))
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-31 16:23:43 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\BaseModel.php(963): CodeIgniter\Model->doDelete('0', false)
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Inventaris.php(156): CodeIgniter\BaseModel->delete('0')
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Inventaris->hapus()
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Inventaris))
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-31 16:23:57 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\BaseModel.php(963): CodeIgniter\Model->doDelete('0', false)
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Inventaris.php(156): CodeIgniter\BaseModel->delete('0')
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Inventaris->hapus()
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Inventaris))
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-31 16:24:39 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\BaseModel.php(963): CodeIgniter\Model->doDelete('0', false)
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Inventaris.php(156): CodeIgniter\BaseModel->delete('0')
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Inventaris->hapus()
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Inventaris))
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-31 16:25:03 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\BaseModel.php(963): CodeIgniter\Model->doDelete('0', false)
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Inventaris.php(142): CodeIgniter\BaseModel->delete('0')
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Inventaris->hapusbanyak()
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Inventaris))
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-31 16:25:41 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\BaseModel.php(963): CodeIgniter\Model->doDelete('0', false)
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Inventaris.php(142): CodeIgniter\BaseModel->delete('0')
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Inventaris->hapusbanyak()
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Inventaris))
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-31 16:27:05 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\BaseModel.php(963): CodeIgniter\Model->doDelete('0', false)
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Inventaris.php(142): CodeIgniter\BaseModel->delete('0')
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Inventaris->hapusbanyak()
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Inventaris))
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-31 16:28:38 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\BaseModel.php(963): CodeIgniter\Model->doDelete('0', false)
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Inventaris.php(156): CodeIgniter\BaseModel->delete('0')
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Inventaris->hapus()
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Inventaris))
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-31 16:28:47 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\BaseModel.php(963): CodeIgniter\Model->doDelete('0', false)
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Inventaris.php(142): CodeIgniter\BaseModel->delete('0')
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Inventaris->hapusbanyak()
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Inventaris))
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-31 16:48:14 --> There is no data to insert.
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Kategori.php(106): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Kategori->simpandata()
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kategori))
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-05-31 16:59:48 --> Column 'rm' cannot be null
+CRITICAL - 2022-05-31 16:59:48 --> Column 'rm' cannot be null
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Pasien.php(168): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Pasien->simpandata()
+#9 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#10 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-31 17:01:16 --> Column 'rm' cannot be null
+CRITICAL - 2022-05-31 17:01:16 --> Column 'rm' cannot be null
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Pasien.php(168): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Pasien->simpandata()
+#9 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#10 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-31 17:02:09 --> Column 'rm' cannot be null
+CRITICAL - 2022-05-31 17:02:09 --> Column 'rm' cannot be null
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Pasien.php(168): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Pasien->simpandata()
+#9 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#10 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-31 17:02:57 --> Column 'rm' cannot be null
+CRITICAL - 2022-05-31 17:02:57 --> Column 'rm' cannot be null
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Pasien.php(168): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Pasien->simpandata()
+#9 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#10 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-05-31 17:05:26 --> Unsupported operand types: string - int
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Pasien->simpandata()
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 17:05:27 --> Unsupported operand types: string - int
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Pasien->simpandata()
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-31 17:09:12 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #1 ($orderBy) must be of type string, null given, called in C:\xampp\htdocs\SIAK_Dr_Yanti\app\Models\Modeldatapasien.php on line 43
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Models\Modeldatapasien.php(43): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Models\Modeldatapasien.php(51): App\Models\Modeldatapasien->_get_datatables_query()
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Pasien.php(44): App\Models\Modeldatapasien->get_datatables()
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Pasien->listdata()
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-31 17:09:15 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Pasien.php(267): count(NULL)
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Pasien->hapusbanyak()
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-31 17:09:22 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Pasien.php(267): count(NULL)
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Pasien->hapusbanyak()
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-31 17:10:23 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #1 ($orderBy) must be of type string, null given, called in C:\xampp\htdocs\SIAK_Dr_Yanti\app\Models\Modeldatapasien.php on line 43
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Models\Modeldatapasien.php(43): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Models\Modeldatapasien.php(51): App\Models\Modeldatapasien->_get_datatables_query()
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Pasien.php(44): App\Models\Modeldatapasien->get_datatables()
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Pasien->listdata()
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-31 17:10:37 --> Attempt to read property "id_pasien" on null
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Pasien.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 157)
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Pasien->simpandata()
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-31 17:10:42 --> Attempt to read property "id_pasien" on null
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Pasien.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 157)
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Pasien->simpandata()
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-31 17:26:36 --> Attempt to read property "pasien" on null
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Views\Page\Statistik.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 231)
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Common.php(1089): CodeIgniter\View\View->render('Page/Statistik', Array, true)
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\Home.php(30): view('Page/Statistik', Array)
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-31 17:29:01 --> Attempt to read property "id_transaksi" on null
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Views\Page\Statistik.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 231)
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Common.php(1089): CodeIgniter\View\View->render('Page/Statistik', Array, true)
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\Home.php(30): view('Page/Statistik', Array)
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-31 17:34:04 --> Attempt to read property "pasien" on null
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Views\Page\Statistik.php(248): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 248)
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Common.php(1089): CodeIgniter\View\View->render('Page/Statistik', Array, true)
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\Home.php(30): view('Page/Statistik', Array)
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-31 17:35:26 --> Attempt to read property "pasien" on null
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Views\Page\Statistik.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 247)
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Common.php(1089): CodeIgniter\View\View->render('Page/Statistik', Array, true)
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\Home.php(30): view('Page/Statistik', Array)
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

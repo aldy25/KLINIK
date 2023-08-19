@@ -1,0 +1,16 @@
+CRITICAL - 2023-05-27 07:53:23 --> Attempt to read property "id_pasien" on null
+#0 C:\xampp\htdocs\revisi\app\Controllers\Back\Pasien.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 221)
+#1 C:\xampp\htdocs\revisi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->simpandata()
+#2 C:\xampp\htdocs\revisi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\revisi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\revisi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\revisi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-27 07:55:19 --> Attempt to read property "id_pasien" on null
+#0 C:\xampp\htdocs\revisi\app\Controllers\Back\Pasien.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 221)
+#1 C:\xampp\htdocs\revisi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->simpandata()
+#2 C:\xampp\htdocs\revisi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\revisi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\revisi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\revisi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

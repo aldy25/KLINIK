@@ -1,0 +1,308 @@
+CRITICAL - 2023-01-27 22:57:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 22:57:36 --> orWhereNotIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(770): CodeIgniter\Database\BaseBuilder->_whereIn('total_bayar', '', true, 'OR ', NULL)
+#1 C:\xampp\htdocs\skripsi\app\Models\Modeldatariwayat.php(24): CodeIgniter\Database\BaseBuilder->orWhereNotIn('total_bayar', '')
+#2 C:\xampp\htdocs\skripsi\app\Controllers\Back\Riwayat.php(39): App\Models\Modeldatariwayat->__construct(Object(CodeIgniter\HTTP\IncomingRequest), '3')
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Riwayat->listdata('3')
+#4 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Riwayat))
+#5 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-01-27 22:57:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 22:57:53 --> orWhereNotIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(770): CodeIgniter\Database\BaseBuilder->_whereIn('total_bayar', '', true, 'OR ', NULL)
+#1 C:\xampp\htdocs\skripsi\app\Models\Modeldatariwayat.php(24): CodeIgniter\Database\BaseBuilder->orWhereNotIn('total_bayar', '')
+#2 C:\xampp\htdocs\skripsi\app\Controllers\Back\Riwayat.php(39): App\Models\Modeldatariwayat->__construct(Object(CodeIgniter\HTTP\IncomingRequest), '3')
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Riwayat->listdata('3')
+#4 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Riwayat))
+#5 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-01-27 22:58:37 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 22:58:47 --> whereNotIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(757): CodeIgniter\Database\BaseBuilder->_whereIn('total_bayar', '', true, 'AND ', NULL)
+#1 C:\xampp\htdocs\skripsi\app\Models\Modeldatariwayat.php(24): CodeIgniter\Database\BaseBuilder->whereNotIn('total_bayar', '')
+#2 C:\xampp\htdocs\skripsi\app\Controllers\Back\Riwayat.php(39): App\Models\Modeldatariwayat->__construct(Object(CodeIgniter\HTTP\IncomingRequest), '2')
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Riwayat->listdata('2')
+#4 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Riwayat))
+#5 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-01-27 22:59:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:01:36 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:01:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::whereNot()
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Riwayat.php(39): App\Models\Modeldatariwayat->__construct(Object(CodeIgniter\HTTP\IncomingRequest), '2')
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Riwayat->listdata('2')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Riwayat))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:07:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:07:05 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:08:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:09:48 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:09:52 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:10:23 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:11:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:14:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:15:36 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:16:15 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:17:35 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:17:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:20:48 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:21:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:21:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:21:57 --> syntax error, unexpected identifier "NotLike"
+#0 C:\xampp\htdocs\skripsi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\skripsi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 C:\xampp\htdocs\skripsi\app\Controllers\Back\Riwayat.php(39): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Riwayat->listdata('2')
+#4 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Riwayat))
+#5 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-01-27 23:22:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:23:36 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:23:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:25:23 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:25:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:26:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:26:06 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:26:16 --> whereNotIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(757): CodeIgniter\Database\BaseBuilder->_whereIn('total_bayar', '', true, 'AND ', NULL)
+#1 C:\xampp\htdocs\skripsi\app\Models\Modeldatariwayat.php(25): CodeIgniter\Database\BaseBuilder->whereNotIn('total_bayar', '')
+#2 C:\xampp\htdocs\skripsi\app\Controllers\Back\Riwayat.php(39): App\Models\Modeldatariwayat->__construct(Object(CodeIgniter\HTTP\IncomingRequest), '2')
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Riwayat->listdata('2')
+#4 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Riwayat))
+#5 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-01-27 23:26:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:26:50 --> whereNotIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(757): CodeIgniter\Database\BaseBuilder->_whereIn('total_bayar', '', true, 'AND ', NULL)
+#1 C:\xampp\htdocs\skripsi\app\Models\Modeldatariwayat.php(25): CodeIgniter\Database\BaseBuilder->whereNotIn('total_bayar', '')
+#2 C:\xampp\htdocs\skripsi\app\Controllers\Back\Riwayat.php(39): App\Models\Modeldatariwayat->__construct(Object(CodeIgniter\HTTP\IncomingRequest), '2')
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Riwayat->listdata('2')
+#4 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Riwayat))
+#5 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-01-27 23:27:48 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-27 23:27:52 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

@@ -1,0 +1,346 @@
+ERROR - 2022-05-07 02:19:51 --> Unknown column 'nama' in 'order clause'
+CRITICAL - 2022-05-07 02:19:51 --> Unknown column 'nama' in 'order clause'
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatapasien.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Pasien.php(44): App\Models\Modeldatapasien->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Pasien->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-07 02:23:44 --> Unknown column 'nama' in 'order clause'
+CRITICAL - 2022-05-07 02:23:44 --> Unknown column 'nama' in 'order clause'
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatapasien.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Pasien.php(44): App\Models\Modeldatapasien->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Pasien->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-07 02:25:54 --> Unknown column 'nama' in 'order clause'
+CRITICAL - 2022-05-07 02:25:54 --> Unknown column 'nama' in 'order clause'
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatapasien.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Pasien.php(44): App\Models\Modeldatapasien->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Pasien->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-07 02:26:23 --> Unknown column 'nama' in 'order clause'
+CRITICAL - 2022-05-07 02:26:23 --> Unknown column 'nama' in 'order clause'
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatapasien.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Pasien.php(44): App\Models\Modeldatapasien->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Pasien->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-07 02:27:10 --> Unknown column 'nama' in 'order clause'
+CRITICAL - 2022-05-07 02:27:10 --> Unknown column 'nama' in 'order clause'
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatapasien.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Pasien.php(44): App\Models\Modeldatapasien->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Pasien->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-07 02:30:18 --> Unknown column 'nama' in 'order clause'
+CRITICAL - 2022-05-07 02:30:18 --> Unknown column 'nama' in 'order clause'
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatapasien.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Pasien.php(44): App\Models\Modeldatapasien->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Pasien->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-07 02:39:32 --> Invalid file: Page/Kb/Viewdata.php
+#0 C:\xampp\htdocs\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Page/Kb/Viewdat...')
+#1 C:\xampp\htdocs\klinik\system\Common.php(1089): CodeIgniter\View\View->render('Page/Kb/Viewdat...', Array, true)
+#2 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(21): view('Page/Kb/Viewdat...', Array)
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->index()
+#4 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#5 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-05-07 02:41:45 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-07 02:41:45 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakb.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(42): App\Models\Modeldatakb->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-07 02:43:51 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-07 02:43:51 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakb.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(42): App\Models\Modeldatakb->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-07 02:44:18 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-07 02:44:18 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakb.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(42): App\Models\Modeldatakb->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-07 02:46:54 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-07 02:46:54 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakb.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(44): App\Models\Modeldatakb->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-07 04:09:08 --> Undefined property: stdClass::$nama
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Auth.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 69)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Auth->cekuser()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Auth))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-07 04:11:06 --> Undefined variable $session
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 117)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->simpandata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-07 04:11:09 --> Undefined variable $session
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 117)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->simpandata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-07 06:25:11 --> Undefined variable $session
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 117)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->simpandata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-07 06:27:29 --> Undefined variable $session
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 117)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->simpandata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-07 06:27:46 --> Undefined variable $session
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 117)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->simpandata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-07 06:27:50 --> Undefined variable $session
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 117)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->simpandata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-07 06:28:00 --> Undefined variable $session
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 117)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->simpandata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-07 06:29:12 --> Undefined variable $session
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 117)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->simpandata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-07 06:29:42 --> Undefined variable $session
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 117)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->simpandata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-07 06:31:26 --> Cannot add or update a child row: a foreign key constraint fails (`klinik`.`tbl_kb`, CONSTRAINT `tbl_kb_ibfk_1` FOREIGN KEY (`pasien`) REFERENCES `tbl_pasien` (`id_pasien`))
+CRITICAL - 2022-05-07 06:31:26 --> Cannot add or update a child row: a foreign key constraint fails (`klinik`.`tbl_kb`, CONSTRAINT `tbl_kb_ibfk_1` FOREIGN KEY (`pasien`) REFERENCES `tbl_pasien` (`id_pasien`))
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\klinik\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\klinik\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\klinik\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(128): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->simpandata()
+#9 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#10 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-07 06:31:31 --> Cannot add or update a child row: a foreign key constraint fails (`klinik`.`tbl_kb`, CONSTRAINT `tbl_kb_ibfk_1` FOREIGN KEY (`pasien`) REFERENCES `tbl_pasien` (`id_pasien`))
+CRITICAL - 2022-05-07 06:31:31 --> Cannot add or update a child row: a foreign key constraint fails (`klinik`.`tbl_kb`, CONSTRAINT `tbl_kb_ibfk_1` FOREIGN KEY (`pasien`) REFERENCES `tbl_pasien` (`id_pasien`))
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\klinik\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\klinik\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\klinik\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(128): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->simpandata()
+#9 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#10 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-07 06:33:35 --> Cannot add or update a child row: a foreign key constraint fails (`klinik`.`tbl_kb`, CONSTRAINT `tbl_kb_ibfk_1` FOREIGN KEY (`pasien`) REFERENCES `tbl_pasien` (`id_pasien`))
+CRITICAL - 2022-05-07 06:33:35 --> Cannot add or update a child row: a foreign key constraint fails (`klinik`.`tbl_kb`, CONSTRAINT `tbl_kb_ibfk_1` FOREIGN KEY (`pasien`) REFERENCES `tbl_pasien` (`id_pasien`))
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\klinik\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\klinik\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\klinik\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(128): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->simpandata()
+#9 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#10 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-05-07 06:36:08 --> Undefined variable $id_user
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 122)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->simpandata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-07 06:38:50 --> Column 'user' cannot be null
+CRITICAL - 2022-05-07 06:38:50 --> Column 'user' cannot be null
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\klinik\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\klinik\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\klinik\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(128): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->simpandata()
+#9 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#10 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-07 06:38:53 --> Column 'user' cannot be null
+CRITICAL - 2022-05-07 06:38:53 --> Column 'user' cannot be null
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\klinik\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\klinik\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\klinik\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\klinik\app\Controllers\back\Kb.php(128): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kb->simpandata()
+#9 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kb))
+#10 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-05-07 07:05:54 --> Class "App\Controllers\back\Modeldatakir" not found
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kir->listdata()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kir))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-07 07:06:29 --> Class "App\Controllers\back\Modeldatakir" not found
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kir->listdata()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kir))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-07 07:06:36 --> Class "App\Controllers\back\Modeldatakir" not found
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kir->listdata()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kir))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-07 07:07:13 --> Class "App\Controllers\back\Modeldatakir" not found
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Kir->listdata()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Kir))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

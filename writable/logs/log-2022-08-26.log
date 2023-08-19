@@ -1,0 +1,56 @@
+ERROR - 2022-08-26 22:40:07 --> Unknown column 'namapasien' in 'where clause'
+CRITICAL - 2022-08-26 22:40:07 --> Unknown column 'namapasien' in 'where clause'
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Models\Modeldatarm.php(60): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Rm.php(93): App\Models\Modeldatarm->count_filtered()
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Rm->listdata()
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Rm))
+#8 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-08-26 22:40:08 --> Unknown column 'namapasien' in 'where clause'
+CRITICAL - 2022-08-26 22:40:08 --> Unknown column 'namapasien' in 'where clause'
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Models\Modeldatarm.php(60): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Rm.php(93): App\Models\Modeldatarm->count_filtered()
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Rm->listdata()
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Rm))
+#8 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-08-26 22:40:19 --> Unknown column 'namapasien' in 'where clause'
+CRITICAL - 2022-08-26 22:40:19 --> Unknown column 'namapasien' in 'where clause'
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Models\Modeldatarm.php(60): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Rm.php(93): App\Models\Modeldatarm->count_filtered()
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Rm->listdata()
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Rm))
+#8 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-08-26 22:40:22 --> Unknown column 'namapasien' in 'where clause'
+CRITICAL - 2022-08-26 22:40:22 --> Unknown column 'namapasien' in 'where clause'
+#0 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Models\Modeldatarm.php(60): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\SIAK_Dr_Yanti\app\Controllers\back\Rm.php(93): App\Models\Modeldatarm->count_filtered()
+#6 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(832): App\Controllers\back\Rm->listdata()
+#7 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Rm))
+#8 C:\xampp\htdocs\SIAK_Dr_Yanti\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SIAK_Dr_Yanti\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\SIAK_Dr_Yanti\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

@@ -1,0 +1,26 @@
+CRITICAL - 2023-01-24 12:49:42 --> Undefined variable $nama_pasien
+#0 C:\xampp\htdocs\skripsi\app\Views\Page\Keluar\modaledit.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\skripsi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\skripsi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\skripsi\system\Common.php(1089): CodeIgniter\View\View->render('Page/Keluar/mod...', Array, true)
+#4 C:\xampp\htdocs\skripsi\app\Controllers\Back\Keluar.php(201): view('Page/Keluar/mod...', Array)
+#5 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Keluar->formedit()
+#6 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keluar))
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-24 13:11:22 --> Attempt to read property "nama_user" on null
+#0 C:\xampp\htdocs\skripsi\app\Views\Base\Main.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\skripsi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\skripsi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\skripsi\system\View\View.php(226): CodeIgniter\View\View->render('Base/Main', Array, true)
+#4 C:\xampp\htdocs\skripsi\system\View\View.php(226): CodeIgniter\View\View->render('Base/Menu', Array, true)
+#5 C:\xampp\htdocs\skripsi\system\Common.php(1089): CodeIgniter\View\View->render('Page/Keluar/Vie...', Array, true)
+#6 C:\xampp\htdocs\skripsi\app\Controllers\Back\Keluar.php(17): view('Page/Keluar/Vie...', Array)
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Keluar->index()
+#8 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keluar))
+#9 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}

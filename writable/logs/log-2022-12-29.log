@@ -1,0 +1,233 @@
+ERROR - 2022-12-29 06:40:44 --> Table 'klinik.tbl_pasien' doesn't exist
+CRITICAL - 2022-12-29 06:40:44 --> Table 'klinik.tbl_pasien' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\skripsi\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\skripsi\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->ambildata()
+#8 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#9 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-12-29 06:41:51 --> Table 'klinik.tbl_pasien' doesn't exist
+CRITICAL - 2022-12-29 06:41:51 --> Table 'klinik.tbl_pasien' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\skripsi\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\skripsi\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->ambildata()
+#8 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#9 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-12-29 06:44:16 --> Table 'klinik.tbl_pasien' doesn't exist
+CRITICAL - 2022-12-29 06:44:16 --> Table 'klinik.tbl_pasien' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\skripsi\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\skripsi\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->ambildata()
+#8 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#9 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-12-29 06:45:07 --> Table 'klinik.tbl_pasien' doesn't exist
+CRITICAL - 2022-12-29 06:45:07 --> Table 'klinik.tbl_pasien' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\skripsi\app\Models\Modeldatapasien.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(36): App\Models\Modeldatapasien->get_datatables()
+#6 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->listdata()
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#8 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-12-29 06:46:10 --> Table 'klinik.tbl_pasien' doesn't exist
+CRITICAL - 2022-12-29 06:46:10 --> Table 'klinik.tbl_pasien' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\skripsi\app\Models\Modeldatapasien.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(36): App\Models\Modeldatapasien->get_datatables()
+#6 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->listdata()
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#8 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-12-29 06:46:18 --> Table 'klinik.tbl_pasien' doesn't exist
+CRITICAL - 2022-12-29 06:46:18 --> Table 'klinik.tbl_pasien' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\skripsi\app\Models\Modeldatapasien.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(36): App\Models\Modeldatapasien->get_datatables()
+#6 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->listdata()
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#8 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-12-29 06:47:31 --> Table 'klinik.tbl_pasien' doesn't exist
+CRITICAL - 2022-12-29 06:47:31 --> Table 'klinik.tbl_pasien' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\skripsi\app\Models\Modeldatapasien.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(36): App\Models\Modeldatapasien->get_datatables()
+#6 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->listdata()
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#8 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-12-29 06:50:18 --> Table 'klinik.tbl_pasien' doesn't exist
+CRITICAL - 2022-12-29 06:50:18 --> Table 'klinik.tbl_pasien' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\skripsi\app\Models\Modeldatapasien.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(36): App\Models\Modeldatapasien->get_datatables()
+#6 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->listdata()
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#8 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-12-29 06:52:19 --> Table 'klinik.tbl_pasien' doesn't exist
+CRITICAL - 2022-12-29 06:52:19 --> Table 'klinik.tbl_pasien' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\skripsi\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\skripsi\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->ambildata()
+#8 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#9 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-12-29 06:53:24 --> Table 'klinik.tbl_pasien' doesn't exist
+CRITICAL - 2022-12-29 06:53:24 --> Table 'klinik.tbl_pasien' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\skripsi\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\skripsi\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->ambildata()
+#8 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#9 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-12-29 06:54:41 --> Table 'klinik.tbl_pasien' doesn't exist
+CRITICAL - 2022-12-29 06:54:41 --> Table 'klinik.tbl_pasien' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\skripsi\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\skripsi\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->ambildata()
+#8 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#9 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-12-29 06:55:18 --> Table 'klinik.tbl_pasien' doesn't exist
+CRITICAL - 2022-12-29 06:55:18 --> Table 'klinik.tbl_pasien' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\skripsi\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\skripsi\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->ambildata()
+#8 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#9 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-12-29 06:55:59 --> Table 'klinik.tbl_pasien' doesn't exist
+CRITICAL - 2022-12-29 06:55:59 --> Table 'klinik.tbl_pasien' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\skripsi\app\Models\Modeldatapasien.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(37): App\Models\Modeldatapasien->get_datatables()
+#6 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->listdata()
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#8 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-12-29 06:59:11 --> Table 'klinik.tbl_pasien' doesn't exist
+CRITICAL - 2022-12-29 06:59:11 --> Table 'klinik.tbl_pasien' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\skripsi\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\skripsi\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->ambildata()
+#8 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#9 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-12-29 07:05:25 --> Table 'klinik.tbl_pasien' doesn't exist
+CRITICAL - 2022-12-29 07:05:25 --> Table 'klinik.tbl_pasien' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\skripsi\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\skripsi\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->ambildata()
+#8 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#9 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-12-29 07:05:59 --> Table 'klinik.tbl_pasien' doesn't exist
+CRITICAL - 2022-12-29 07:05:59 --> Table 'klinik.tbl_pasien' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\skripsi\app\Models\Modeldatapasien.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(41): App\Models\Modeldatapasien->get_datatables()
+#6 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->listdata()
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#8 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

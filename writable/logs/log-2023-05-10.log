@@ -1,0 +1,12 @@
+CRITICAL - 2023-05-10 23:31:10 --> Undefined variable $pasienn
+#0 C:\xampp\htdocs\skripsi\app\Views\Page\Laporan\Obat.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\skripsi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\skripsi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\skripsi\system\Common.php(1089): CodeIgniter\View\View->render('Page/Laporan/Ob...', Array, true)
+#4 C:\xampp\htdocs\skripsi\app\Controllers\Back\Laporan.php(170): view('Page/Laporan/Ob...', Array)
+#5 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Laporan->obat()
+#6 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Laporan))
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

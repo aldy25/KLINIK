@@ -1,0 +1,166 @@
+CRITICAL - 2023-05-16 01:05:10 --> Undefined property: stdClass::$nama_layanan
+#0 C:\xampp\htdocs\revisi\app\Controllers\Back\Rm.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\revisi\system\CodeIgniter.php(832): App\Controllers\back\Rm->listdata('19')
+#2 C:\xampp\htdocs\revisi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Rm))
+#3 C:\xampp\htdocs\revisi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\revisi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\revisi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-16 01:17:07 --> Undefined array key "layanana"
+#0 C:\xampp\htdocs\revisi\app\Controllers\Back\Berobat.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\revisi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->formedit()
+#2 C:\xampp\htdocs\revisi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#3 C:\xampp\htdocs\revisi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\revisi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\revisi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-16 01:17:11 --> Undefined array key "layanana"
+#0 C:\xampp\htdocs\revisi\app\Controllers\Back\Berobat.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\revisi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->formedit()
+#2 C:\xampp\htdocs\revisi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#3 C:\xampp\htdocs\revisi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\revisi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\revisi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-16 01:17:32 --> Undefined array key "layanana"
+#0 C:\xampp\htdocs\revisi\app\Controllers\Back\Berobat.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\revisi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->formedit()
+#2 C:\xampp\htdocs\revisi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#3 C:\xampp\htdocs\revisi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\revisi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\revisi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-16 01:17:46 --> Undefined array key "layanana"
+#0 C:\xampp\htdocs\revisi\app\Controllers\Back\Berobat.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\revisi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->formedit()
+#2 C:\xampp\htdocs\revisi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#3 C:\xampp\htdocs\revisi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\revisi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\revisi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-16 01:18:15 --> Undefined array key "layanana"
+#0 C:\xampp\htdocs\revisi\app\Controllers\Back\Berobat.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\revisi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->formedit()
+#2 C:\xampp\htdocs\revisi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#3 C:\xampp\htdocs\revisi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\revisi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\revisi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-16 01:18:18 --> Undefined array key "layanana"
+#0 C:\xampp\htdocs\revisi\app\Controllers\Back\Berobat.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\revisi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->formedit()
+#2 C:\xampp\htdocs\revisi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#3 C:\xampp\htdocs\revisi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\revisi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\revisi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-16 02:56:34 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\revisi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\revisi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\revisi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\revisi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\revisi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\revisi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\revisi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-05-16 06:04:05 --> Undefined variable $tomboledit
+#0 C:\xampp\htdocs\revisi\app\Controllers\Back\Datarm.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68)
+#1 C:\xampp\htdocs\revisi\system\CodeIgniter.php(832): App\Controllers\back\Datarm->listdata()
+#2 C:\xampp\htdocs\revisi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Datarm))
+#3 C:\xampp\htdocs\revisi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\revisi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\revisi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-16 06:04:24 --> Undefined variable $tomboledit
+#0 C:\xampp\htdocs\revisi\app\Controllers\Back\Datarm.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68)
+#1 C:\xampp\htdocs\revisi\system\CodeIgniter.php(832): App\Controllers\back\Datarm->listdata()
+#2 C:\xampp\htdocs\revisi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Datarm))
+#3 C:\xampp\htdocs\revisi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\revisi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\revisi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-16 08:09:26 --> Undefined variable $id_transaksi
+#0 C:\xampp\htdocs\revisi\app\Views\Page\Laporan\Transaksi.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\revisi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\revisi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\revisi\system\Common.php(1089): CodeIgniter\View\View->render('Page/Laporan/Tr...', Array, true)
+#4 C:\xampp\htdocs\revisi\app\Controllers\Back\Laporan.php(39): view('Page/Laporan/Tr...', Array)
+#5 C:\xampp\htdocs\revisi\system\CodeIgniter.php(832): App\Controllers\back\Laporan->proses()
+#6 C:\xampp\htdocs\revisi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Laporan))
+#7 C:\xampp\htdocs\revisi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\revisi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\revisi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-16 08:09:46 --> Undefined property: stdClass::$id_transaksi
+#0 C:\xampp\htdocs\revisi\app\Views\Page\Laporan\Transaksi.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\revisi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\revisi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\revisi\system\Common.php(1089): CodeIgniter\View\View->render('Page/Laporan/Tr...', Array, true)
+#4 C:\xampp\htdocs\revisi\app\Controllers\Back\Laporan.php(39): view('Page/Laporan/Tr...', Array)
+#5 C:\xampp\htdocs\revisi\system\CodeIgniter.php(832): App\Controllers\back\Laporan->proses()
+#6 C:\xampp\htdocs\revisi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Laporan))
+#7 C:\xampp\htdocs\revisi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\revisi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\revisi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-16 08:10:23 --> Undefined property: stdClass::$107000
+#0 C:\xampp\htdocs\revisi\app\Views\Page\Laporan\Transaksi.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\revisi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\revisi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\revisi\system\Common.php(1089): CodeIgniter\View\View->render('Page/Laporan/Tr...', Array, true)
+#4 C:\xampp\htdocs\revisi\app\Controllers\Back\Laporan.php(39): view('Page/Laporan/Tr...', Array)
+#5 C:\xampp\htdocs\revisi\system\CodeIgniter.php(832): App\Controllers\back\Laporan->proses()
+#6 C:\xampp\htdocs\revisi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Laporan))
+#7 C:\xampp\htdocs\revisi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\revisi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\revisi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-16 08:47:06 --> Undefined variable $tampildata
+#0 C:\xampp\htdocs\revisi\app\Views\Page\Beranda.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 163)
+#1 C:\xampp\htdocs\revisi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\revisi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\revisi\system\Common.php(1089): CodeIgniter\View\View->render('Page/Beranda', Array, true)
+#4 C:\xampp\htdocs\revisi\app\Controllers\Homepage.php(21): view('Page/Beranda', Array)
+#5 C:\xampp\htdocs\revisi\system\CodeIgniter.php(832): App\Controllers\Homepage->index()
+#6 C:\xampp\htdocs\revisi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage))
+#7 C:\xampp\htdocs\revisi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\revisi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\revisi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-16 09:23:06 --> Undefined property: stdClass::$biaya_lainyaini
+#0 C:\xampp\htdocs\revisi\app\Views\Page\Beranda.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 308)
+#1 C:\xampp\htdocs\revisi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\revisi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\revisi\system\Common.php(1089): CodeIgniter\View\View->render('Page/Beranda', Array, true)
+#4 C:\xampp\htdocs\revisi\app\Controllers\Homepage.php(21): view('Page/Beranda', Array)
+#5 C:\xampp\htdocs\revisi\system\CodeIgniter.php(832): App\Controllers\Homepage->index()
+#6 C:\xampp\htdocs\revisi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage))
+#7 C:\xampp\htdocs\revisi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\revisi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\revisi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-16 09:23:30 --> Undefined property: stdClass::$layananlalu
+#0 C:\xampp\htdocs\revisi\app\Views\Page\Beranda.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 327)
+#1 C:\xampp\htdocs\revisi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\revisi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\revisi\system\Common.php(1089): CodeIgniter\View\View->render('Page/Beranda', Array, true)
+#4 C:\xampp\htdocs\revisi\app\Controllers\Homepage.php(21): view('Page/Beranda', Array)
+#5 C:\xampp\htdocs\revisi\system\CodeIgniter.php(832): App\Controllers\Homepage->index()
+#6 C:\xampp\htdocs\revisi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage))
+#7 C:\xampp\htdocs\revisi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\revisi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\revisi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-16 10:30:22 --> Undefined variable $row
+#0 C:\xampp\htdocs\revisi\app\Views\Page\Beranda.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 198)
+#1 C:\xampp\htdocs\revisi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\revisi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\revisi\system\Common.php(1089): CodeIgniter\View\View->render('Page/Beranda', Array, true)
+#4 C:\xampp\htdocs\revisi\app\Controllers\Homepage.php(21): view('Page/Beranda', Array)
+#5 C:\xampp\htdocs\revisi\system\CodeIgniter.php(832): App\Controllers\Homepage->index()
+#6 C:\xampp\htdocs\revisi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage))
+#7 C:\xampp\htdocs\revisi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\revisi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\revisi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

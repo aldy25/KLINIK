@@ -1,0 +1,78 @@
+ERROR - 2023-01-30 08:52:16 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-01-30 08:52:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\skripsi\app\Controllers\Back\Auth.php(50): CodeIgniter\Database\BaseConnection->query('SELECT * from t...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Auth->cekuser()
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Auth))
+#4 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-01-30 09:24:27 --> Call to undefined function now()
+#0 C:\xampp\htdocs\skripsi\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\skripsi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\skripsi\system\Common.php(1089): CodeIgniter\View\View->render('Page/Beranda', Array, true)
+#3 C:\xampp\htdocs\skripsi\app\Controllers\Homepage.php(21): view('Page/Beranda', Array)
+#4 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\Homepage->index()
+#5 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage))
+#6 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-01-30 09:36:18 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+#0 C:\xampp\htdocs\skripsi\app\Views\Page\Beranda.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 177)
+#1 C:\xampp\htdocs\skripsi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\skripsi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\skripsi\system\Common.php(1089): CodeIgniter\View\View->render('Page/Beranda', Array, true)
+#4 C:\xampp\htdocs\skripsi\app\Controllers\Homepage.php(21): view('Page/Beranda', Array)
+#5 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\Homepage->index()
+#6 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage))
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-30 09:37:18 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+#0 C:\xampp\htdocs\skripsi\app\Views\Page\Beranda.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 177)
+#1 C:\xampp\htdocs\skripsi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\skripsi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\skripsi\system\Common.php(1089): CodeIgniter\View\View->render('Page/Beranda', Array, true)
+#4 C:\xampp\htdocs\skripsi\app\Controllers\Homepage.php(21): view('Page/Beranda', Array)
+#5 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\Homepage->index()
+#6 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage))
+#7 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-30 11:10:28 --> Validasilogin filter must have a matching alias defined.
+#0 C:\xampp\htdocs\skripsi\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Validasilogin')
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('Validasilogin', 'before')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-01-30 11:13:15 --> Validasilogin filter must have a matching alias defined.
+#0 C:\xampp\htdocs\skripsi\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Validasilogin')
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('Validasilogin', 'before')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-01-30 11:16:10 --> Validasilogin filter must have a matching alias defined.
+#0 C:\xampp\htdocs\skripsi\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Validasilogin')
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('Validasilogin', 'before')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-01-30 11:20:12 --> Call to undefined function form_open()
+#0 C:\xampp\htdocs\skripsi\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\skripsi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\skripsi\system\Common.php(1089): CodeIgniter\View\View->render('Auth/Login', Array, true)
+#3 C:\xampp\htdocs\skripsi\app\Filters\Validasilogin.php(15): view('Auth/Login', Array)
+#4 C:\xampp\htdocs\skripsi\system\Filters\Filters.php(173): App\Filters\Validasilogin->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#5 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('View-akun', 'before')
+#6 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

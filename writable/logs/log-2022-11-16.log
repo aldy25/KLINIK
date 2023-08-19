@@ -1,0 +1,22 @@
+ERROR - 2022-11-16 08:49:02 --> Error connecting to the database: Unknown database 'klinik'
+CRITICAL - 2022-11-16 08:49:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'klinik'
+#0 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\skripsi\app\Controllers\back\Auth.php(49): CodeIgniter\Database\BaseConnection->query('SELECT * from t...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Auth->cekuser()
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Auth))
+#4 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-11-16 08:49:14 --> Error connecting to the database: Unknown database 'klinik'
+CRITICAL - 2022-11-16 08:49:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'klinik'
+#0 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\skripsi\app\Controllers\back\Auth.php(49): CodeIgniter\Database\BaseConnection->query('SELECT * from t...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Auth->cekuser()
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Auth))
+#4 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

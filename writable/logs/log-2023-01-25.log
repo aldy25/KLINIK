@@ -1,0 +1,212 @@
+CRITICAL - 2023-01-25 04:16:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-25 04:34:17 --> Undefined property: App\Controllers\back\Berobat::$rm
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Berobat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->ambildata()
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-25 04:35:03 --> Undefined property: App\Controllers\back\Berobat::$rm
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Berobat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->ambildata()
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-25 04:35:26 --> Undefined property: App\Controllers\back\Berobat::$rm
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Berobat.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->ambildata()
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-25 04:36:12 --> Too few arguments to function App\Models\Modeldataberobat::__construct(), 1 passed in C:\xampp\htdocs\skripsi\app\Controllers\Back\Berobat.php on line 36 and exactly 2 expected
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Berobat.php(36): App\Models\Modeldataberobat->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->listdata()
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-25 04:37:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-25 04:38:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-25 04:38:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->detail('path', 'to', 'font-awesome', 'css', 'font-awesome.mi...')
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-25 05:45:36 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Pasien.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 159)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Pasien->formedit()
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pasien))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-25 05:55:55 --> Undefined array key "nama_pasien"
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Berobat.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->formedit()
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-25 05:56:07 --> Undefined array key "nama_pasien"
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Berobat.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->formedit()
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-01-25 11:31:05 --> Table 'klinik.tbl_rm' doesn't exist
+CRITICAL - 2023-01-25 11:31:05 --> Table 'klinik.tbl_rm' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * from t...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from t...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from t...')
+#3 C:\xampp\htdocs\skripsi\app\Controllers\Back\Berobat.php(137): CodeIgniter\Database\BaseConnection->query('SELECT * from t...')
+#4 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->updatedata()
+#5 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#6 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-01-25 11:33:46 --> Table 'klinik.tbl_rm' doesn't exist
+CRITICAL - 2023-01-25 11:33:46 --> Table 'klinik.tbl_rm' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * from t...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from t...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from t...')
+#3 C:\xampp\htdocs\skripsi\app\Controllers\Back\Berobat.php(136): CodeIgniter\Database\BaseConnection->query('SELECT * from t...')
+#4 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->updatedata()
+#5 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#6 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-01-25 11:34:19 --> Table 'klinik.tbl_rm' doesn't exist
+CRITICAL - 2023-01-25 11:34:19 --> Table 'klinik.tbl_rm' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * from t...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from t...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from t...')
+#3 C:\xampp\htdocs\skripsi\app\Controllers\Back\Berobat.php(136): CodeIgniter\Database\BaseConnection->query('SELECT * from t...')
+#4 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->updatedata()
+#5 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#6 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-01-25 11:35:04 --> Table 'klinik.tbl_rm' doesn't exist
+CRITICAL - 2023-01-25 11:35:04 --> Table 'klinik.tbl_rm' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * from t...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from t...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from t...')
+#3 C:\xampp\htdocs\skripsi\app\Controllers\Back\Berobat.php(135): CodeIgniter\Database\BaseConnection->query('SELECT * from t...')
+#4 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->updatedata()
+#5 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#6 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-01-25 11:37:33 --> Table 'klinik.tbl_rm' doesn't exist
+CRITICAL - 2023-01-25 11:37:33 --> Table 'klinik.tbl_rm' doesn't exist
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * from t...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from t...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from t...')
+#3 C:\xampp\htdocs\skripsi\app\Controllers\Back\Berobat.php(138): CodeIgniter\Database\BaseConnection->query('SELECT * from t...')
+#4 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->updatedata()
+#5 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#6 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-01-25 11:38:17 --> Undefined variable $db
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Berobat.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 158)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->updatedata()
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-25 11:41:04 --> Undefined variable $db
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Berobat.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 158)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->updatedata()
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-25 11:43:16 --> Undefined variable $db
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Berobat.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 131)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->updatedata()
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-01-25 11:45:44 --> Cannot add or update a child row: a foreign key constraint fails (`klinik`.`tb_resep`, CONSTRAINT `tb_resep_ibfk_1` FOREIGN KEY (`transaksi`) REFERENCES `tbl_riwayat_transaksi` (`id_riwayat`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2023-01-25 11:45:44 --> Cannot add or update a child row: a foreign key constraint fails (`klinik`.`tb_resep`, CONSTRAINT `tb_resep_ibfk_1` FOREIGN KEY (`transaksi`) REFERENCES `tbl_riwayat_transaksi` (`id_riwayat`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\skripsi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\skripsi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\skripsi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\skripsi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\skripsi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\skripsi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\skripsi\app\Controllers\Back\Berobat.php(168): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->updatedata()
+#9 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#10 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-01-25 21:22:34 --> Attempt to read property "jumlah" on array
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Berobat.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 189)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->updatedata()
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-25 21:25:36 --> Attempt to read property "jumlah" on array
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Berobat.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 189)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->updatedata()
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-01-25 22:40:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Berobat.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 81)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Berobat->formedit()
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Berobat))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

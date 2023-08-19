@@ -1,0 +1,52 @@
+CRITICAL - 2022-04-29 07:01:22 --> Class "App\Controllers\Modelakun" not found
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-29 07:02:10 --> Class "App\Controllers\Modelakun" not found
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-29 07:02:43 --> Class "App\Controllers\Modelakun" not found
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-29 07:03:41 --> Invalid file: back/base/menu.php
+#0 C:\xampp\htdocs\klinik\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/base/menu....')
+#1 C:\xampp\htdocs\klinik\system\View\View.php(226): CodeIgniter\View\View->render('back/base/menu', Array, true)
+#2 C:\xampp\htdocs\klinik\system\Common.php(1089): CodeIgniter\View\View->render('Page/Akun/Viewa...', Array, true)
+#3 C:\xampp\htdocs\klinik\app\Controllers\back\Akun.php(21): view('Page/Akun/Viewa...', Array)
+#4 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Akun->index()
+#5 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Akun))
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-29 07:50:51 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #1 ($orderBy) must be of type string, null given, called in C:\xampp\htdocs\klinik\app\Models\Modeldataakun.php on line 43
+#0 C:\xampp\htdocs\klinik\app\Models\Modeldataakun.php(43): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'asc')
+#1 C:\xampp\htdocs\klinik\app\Models\Modeldataakun.php(51): App\Models\Modeldataakun->_get_datatables_query()
+#2 C:\xampp\htdocs\klinik\app\Controllers\back\Akun.php(44): App\Models\Modeldataakun->get_datatables()
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Akun->listdata()
+#4 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Akun))
+#5 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-29 07:51:02 --> CodeIgniter\Database\BaseBuilder::orderBy(): Argument #1 ($orderBy) must be of type string, null given, called in C:\xampp\htdocs\klinik\app\Models\Modeldataakun.php on line 43
+#0 C:\xampp\htdocs\klinik\app\Models\Modeldataakun.php(43): CodeIgniter\Database\BaseBuilder->orderBy(NULL, 'desc')
+#1 C:\xampp\htdocs\klinik\app\Models\Modeldataakun.php(51): App\Models\Modeldataakun->_get_datatables_query()
+#2 C:\xampp\htdocs\klinik\app\Controllers\back\Akun.php(44): App\Models\Modeldataakun->get_datatables()
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Akun->listdata()
+#4 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Akun))
+#5 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

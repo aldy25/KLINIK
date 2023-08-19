@@ -1,0 +1,8 @@
+CRITICAL - 2023-03-10 02:15:09 --> Undefined array key "id_pasien"
+#0 C:\xampp\htdocs\skripsi\app\Controllers\Back\Antrianobat.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 149)
+#1 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(832): App\Controllers\back\Antrianobat->formedit()
+#2 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Antrianobat))
+#3 C:\xampp\htdocs\skripsi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\skripsi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\skripsi\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

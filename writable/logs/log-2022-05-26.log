@@ -1,0 +1,568 @@
+ERROR - 2022-05-26 09:30:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '4
+FROM `tbl_keranjang`
+JOIN `tbl_pasien` ON `id_pasien`=`pasien`
+JOIN `tbl_ap...' at line 1
+CRITICAL - 2022-05-26 09:30:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '4
+FROM `tbl_keranjang`
+JOIN `tbl_pasien` ON `id_pasien`=`pasien`
+JOIN `tbl_ap...' at line 1
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `* WHERE...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `* WHERE...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `* WHERE...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `* WHERE...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-26 09:30:49 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-26 09:30:49 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-26 09:32:56 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-26 09:32:56 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-26 09:33:37 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-26 09:33:37 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-26 09:36:13 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-26 09:36:13 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-26 09:37:49 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-26 09:37:49 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-26 09:41:28 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-26 09:41:28 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-26 09:42:28 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-26 09:42:28 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-26 09:44:33 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-26 09:44:33 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-26 09:47:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '4
+FROM `tbl_keranjang`
+ORDER BY `id_keranjang` ASC
+ LIMIT 10' at line 1
+CRITICAL - 2022-05-26 09:47:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '4
+FROM `tbl_keranjang`
+ORDER BY `id_keranjang` ASC
+ LIMIT 10' at line 1
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `* WHERE...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `* WHERE...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `* WHERE...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `* WHERE...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-26 09:47:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `tbl_keranjang`
+ORDER BY `id_keranjang` ASC
+ LIMIT 10' at line 2
+CRITICAL - 2022-05-26 09:47:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `tbl_keranjang`
+ORDER BY `id_keranjang` ASC
+ LIMIT 10' at line 2
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * WHERE ...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * WHERE ...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * WHERE ...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT * WHERE ...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-26 12:06:16 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-26 12:06:16 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-26 12:08:18 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-26 12:08:18 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-26 12:10:16 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-26 12:10:16 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-26 12:10:42 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-26 12:10:42 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-26 12:12:50 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-26 12:12:50 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-26 13:06:35 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-26 13:06:35 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-26 13:09:37 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-26 13:09:37 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-05-26 13:42:49 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-26 13:42:49 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-26 13:44:15 --> Undefined property: stdClass::$nama_obat
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-26 13:56:47 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-26 13:56:47 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-26 13:58:36 --> Undefined property: stdClass::$namapasien
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-26 13:59:53 --> Undefined property: stdClass::$obat
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-26 14:01:32 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-26 14:01:32 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-26 14:02:43 --> Undefined property: stdClass::$obat
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-26 14:04:28 --> Undefined property: stdClass::$obat
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-26 14:05:03 --> Undefined property: stdClass::$obat
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-26 14:06:23 --> Undefined property: stdClass::$obat
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-26 14:07:08 --> Undefined property: stdClass::$obat
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-26 14:07:58 --> Undefined property: stdClass::$obat
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-26 14:08:29 --> Undefined property: stdClass::$obat
+#0 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#3 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-26 14:11:03 --> Column 'id_data' in on clause is ambiguous
+CRITICAL - 2022-05-26 14:11:03 --> Column 'id_data' in on clause is ambiguous
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\klinik\app\Models\Modeldatakeranjang.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(44): App\Models\Modeldatakeranjang->get_datatables()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->listdata()
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-26 14:31:07 --> Undefined property: stdClass::$id_layanan
+#0 C:\xampp\htdocs\klinik\app\Views\Page\Keranjang\Viewdata.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\klinik\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\klinik\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\klinik\system\Common.php(1089): CodeIgniter\View\View->render('Page/Keranjang/...', Array, true)
+#4 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(21): view('Page/Keranjang/...', Array)
+#5 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->index()
+#6 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#7 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-26 15:03:41 --> Unsupported operand types: string * string
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->simpandata()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-26 15:03:43 --> Unsupported operand types: string * string
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->simpandata()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-26 15:03:43 --> Unsupported operand types: string * string
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->simpandata()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-26 15:07:18 --> Unsupported operand types: string * string
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->simpandata()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-26 15:08:35 --> Unsupported operand types: string * string
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->simpandata()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-26 15:08:56 --> Unsupported operand types: string * string
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->simpandata()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-26 15:10:02 --> Unsupported operand types: string * string
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->simpandata()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-26 15:13:45 --> Unsupported operand types: string * string
+#0 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->simpandata()
+#1 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#2 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-05-26 15:16:22 --> Unknown column 'tbl_apotik.id_data' in 'where clause'
+CRITICAL - 2022-05-26 15:16:22 --> Unknown column 'tbl_apotik.id_data' in 'where clause'
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbl_apo...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_apo...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_apo...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_apo...', Array, false)
+#4 C:\xampp\htdocs\klinik\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\klinik\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\klinik\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(151): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->simpandata()
+#9 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#10 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 15:16:25 --> Unknown column 'tbl_apotik.id_data' in 'where clause'
+CRITICAL - 2022-05-26 15:16:25 --> Unknown column 'tbl_apotik.id_data' in 'where clause'
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbl_apo...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_apo...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_apo...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_apo...', Array, false)
+#4 C:\xampp\htdocs\klinik\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\klinik\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\klinik\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(151): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->simpandata()
+#9 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#10 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 15:23:27 --> Unknown column 'tbl_apotik.id_data' in 'where clause'
+CRITICAL - 2022-05-26 15:23:27 --> Unknown column 'tbl_apotik.id_data' in 'where clause'
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbl_apo...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_apo...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_apo...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_apo...', Array, false)
+#4 C:\xampp\htdocs\klinik\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\klinik\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\klinik\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(155): CodeIgniter\Model->update('4', Array)
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->simpandata()
+#9 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#10 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 15:24:21 --> Unknown column 'tbl_apotik.id_data' in 'where clause'
+CRITICAL - 2022-05-26 15:24:21 --> Unknown column 'tbl_apotik.id_data' in 'where clause'
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbl_apo...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_apo...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_apo...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_apo...', Array, false)
+#4 C:\xampp\htdocs\klinik\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\klinik\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\klinik\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(155): CodeIgniter\Model->update('5', Array)
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->simpandata()
+#9 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#10 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 15:25:16 --> Unknown column 'tbl_apotik.id_data' in 'where clause'
+CRITICAL - 2022-05-26 15:25:16 --> Unknown column 'tbl_apotik.id_data' in 'where clause'
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbl_apo...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_apo...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_apo...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_apo...', Array, false)
+#4 C:\xampp\htdocs\klinik\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\klinik\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\klinik\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(156): CodeIgniter\Model->update('5', Array)
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->simpandata()
+#9 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#10 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-05-26 15:25:51 --> Unknown column 'tbl_apotik.id_data' in 'where clause'
+CRITICAL - 2022-05-26 15:25:51 --> Unknown column 'tbl_apotik.id_data' in 'where clause'
+#0 C:\xampp\htdocs\klinik\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbl_apo...', 0)
+#1 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_apo...')
+#2 C:\xampp\htdocs\klinik\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_apo...')
+#3 C:\xampp\htdocs\klinik\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_apo...', Array, false)
+#4 C:\xampp\htdocs\klinik\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\klinik\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\klinik\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\klinik\app\Controllers\back\Keranjang.php(158): CodeIgniter\Model->update('5', Array)
+#8 C:\xampp\htdocs\klinik\system\CodeIgniter.php(832): App\Controllers\back\Keranjang->simpandata()
+#9 C:\xampp\htdocs\klinik\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Keranjang))
+#10 C:\xampp\htdocs\klinik\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\klinik\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\klinik\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
